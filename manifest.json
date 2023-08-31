@@ -1,0 +1,16 @@
+
+{
+    "manifest_version": 2,
+    "name": "Happy Thoughts",
+    "version": "1.0",
+    "author": "Cristina Flores & Brooke Sauro",
+    "description": "Our first Chrome extension :)",
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Happy thoughts for you and for me"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
